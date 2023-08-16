@@ -1,0 +1,5 @@
+# inherits settings from https://github.com/Manjaro-Hyprland/.github/blob/main/.github/settings.yml
+_extends: manjaro-contrib/.github
+repository:
+  homepage: __UPSTREAM__
+# you can extend settings using https://probot.github.io/apps/settings/
