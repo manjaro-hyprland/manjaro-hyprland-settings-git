@@ -1,7 +1,7 @@
 # Maintainer: Jonas Strassel <info@jonas-strassel.de>
 
 pkgname=manjaro-hyprland-settings-git
-pkgver=r1532.6fdd8de
+pkgver=r1533.e6f4bcb
 pkgrel=1
 arch=('any')
 _pkgbase=desktop-settings
