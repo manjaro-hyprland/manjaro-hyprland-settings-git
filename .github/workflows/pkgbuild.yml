@@ -51,9 +51,7 @@ jobs:
           dispatch-target: ${{ vars.PACKAGES_REPO }}
           dispatch-token: ${{ secrets.DISPATCH_TOKEN }}
           gpg_secret_base64: ${{ secrets.gpg_secret_base64 }}
+          # additional_gpg: ${{ vars.ADDITIONAL_GPG }}
           additional_gpg: >
             8D8E31AFC32428A6
-          additional_repo: >
-            [manjaro-sway]\n
-            SigLevel = Optional TrustAll\n
-            Server = https://pkg.manjaro-sway.download/stable/\$arch\n
+          additional_repo: ${{ vars.ADDITIONAL_REPO }}
