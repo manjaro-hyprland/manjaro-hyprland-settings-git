@@ -1,4 +1,4 @@
-# inherits settings from https://github.com/Manjaro-Sway/.github/blob/main/.github/settings.yml
+# inherits settings from https://github.com/Manjaro-Hyprland/.github/blob/main/.github/settings.yml
 _extends: manjaro-contrib/.github
 repository:
   homepage: __UPSTREAM__

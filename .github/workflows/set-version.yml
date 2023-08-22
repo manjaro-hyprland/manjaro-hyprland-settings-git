@@ -28,7 +28,7 @@ jobs:
       - name: commit
         run: |
           git config --global user.name "Repo Update Bot"
-          git config --global user.email "info@manjaro-hyprland.download"
+          git config --global user.email "info@manjaro-hyprland.timesavior.io"
           git add PKGBUILD
           git commit -m "chore: release version ${{ github.event.client_payload.version }}"
           git push
