@@ -44,7 +44,7 @@ jobs:
       image: docker://manjarolinux/build:latest
     steps:
       - name: pkgbuild
-        uses: manjaro-hyprland/action-makepkg@main
+        uses: manjaro-contrib/action-makepkg@main
         with:
           branch: ${{ matrix.branch }}
           release: ${{ matrix.branch }}-${{ needs.version.outputs.version }}
@@ -53,4 +53,3 @@ jobs:
           gpg_secret_base64: ${{ secrets.gpg_secret_base64 }}
           additional_gpg: ${{ vars.ADDITIONAL_GPG }}
           additional_repo: ${{ vars.ADDITIONAL_REPO }}
-          passphrase: ${{ secrets.PASSPHRASE }}
