@@ -12,7 +12,7 @@ groups=('hyprland-manjaro')
 depends=(
     'manjaro-base-skel'
     'waybar'                  # configurable bar
-    'light'                   # cli to control brightness
+    'brightnessctl'         # cli to control brightness
     'mako'                    # desktop notifications
     'hyprland'                    # window manager
     'rofi-wayland'            # launcher application
