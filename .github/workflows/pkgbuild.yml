@@ -57,4 +57,3 @@ jobs:
           gpg_secret_base64: ${{ secrets.gpg_secret_base64 }}
           additional_gpg: ${{ vars.ADDITIONAL_GPG }}
           additional_repo: ${{ vars.ADDITIONAL_REPO }}
-          passphrase: ${{ secrets.PASSPHRASE }}
