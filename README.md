@@ -1,0 +1,1 @@
+# Manjaro-hyprland-settings-git
