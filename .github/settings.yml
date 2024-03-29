@@ -2,4 +2,5 @@
 _extends: manjaro-contrib/.github
 repository:
   homepage: __UPSTREAM__
+  topics: arch, package, any
 # you can extend settings using https://probot.github.io/apps/settings/
